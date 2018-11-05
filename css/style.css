@@ -12,6 +12,7 @@ img {
 }
 
 .first-logo {
+    margin: 0 30px;
     width: 86px;
     height: 23px;
 }
@@ -249,4 +250,79 @@ header {
 
 .wedo {
     padding: 90px 0 110px;
+}
+
+.wedo__slider .btn-link{
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    padding: 20px 0;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    z-index: 99;
+}
+
+.blog__photo {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.block__date {
+    width: 60px;
+    height: 70px;
+    background-color: #95e1d3;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+}
+
+span.block__date-number {
+    font-family: "Roboto - Light Italic";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+span.block__date-month {
+    font-family: "Harlow Solid Italic";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.blog__title {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+}
+
+.blog__discription {
+
+}
+
+@media screen and (max-width: 680px) {
+    header{
+        position: relative;
+    }
+    
+}
+
+@media screen and (max-width:680px){
+    .first-slider__name {
+        font-size: 32px;
+    }
 }
