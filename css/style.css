@@ -252,11 +252,20 @@ header {
     padding: 90px 0 110px;
 }
 
-.wedo__slider .btn-link{
+.wedo__slider .btn-link {
     text-transform: uppercase;
     color: #333333;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+}
+
+
+.card-body {
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 header {
