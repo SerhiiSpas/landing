@@ -423,6 +423,7 @@ span.block__date-month {
 
 .Open-map:hover .Open-map__hover {
     display: flex;
+    height: 200px;
 }
 
 .Open-map-text {
@@ -440,4 +441,14 @@ span.block__date-month {
     height: 3px;
     background-color: #f38181;
     margin: 21px auto 0;
+}
+.contact {
+    background-color: #f8f8f8;
+}
+.contact-logo-title {
+    margin: 74px 0px 0px;
+    color: #cccccc;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 700;
 }
