@@ -401,11 +401,17 @@ span.block__date-month {
     position: relative;
     text-align: center;
     height: 200px;
+    margin: 116px 0px 0px;
+}
+
+.Open-map img {
+    display: block;
+    margin: 0 auto;
 }
 
 .Open-map__hover {
     position: absolute;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.85) 0%, rgba(243, 129, 129, 0.9) 100%);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.1) 100%);
     left: 0;
     top: 0;
     right: 0;
@@ -418,10 +424,20 @@ span.block__date-month {
 .Open-map:hover .Open-map__hover {
     display: flex;
 }
-.pen-map-text {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+
+.Open-map-text {
+    color: #f38181;
+    font-family: Montserrat;
+    font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.Open-map-text:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 21px auto 0;
 }
