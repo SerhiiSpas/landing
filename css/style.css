@@ -317,9 +317,24 @@ span.block__date-month {
     font-weight: 400;
     text-transform: uppercase;
     display: block;
+    margin: 20px 0px;
 }
 
 .blog__discription {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    border-bottom: #e5e5e5 double 1px;
+    padding-bottom: 20px;
+    margin: 20px 0px;
+}
+
+.blog__info-view {
+    margin: 0 18px 0 0;
+}
+
+.Open-map {
 
 }
 
@@ -334,6 +349,20 @@ span.block__date-month {
     .first-slider__name {
         font-size: 32px;
     }
+}
+
+.wedo-foto {
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.wedo-text {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 5px;
 }
 
 .who_we_are {
@@ -361,6 +390,35 @@ span.block__date-month {
     display: flex;
 }
 .who__hover-text {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Open-map {
+    position: relative;
+    text-align: center;
+    height: 200px;
+}
+
+.Open-map__hover {
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.85) 0%, rgba(243, 129, 129, 0.9) 100%);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Open-map:hover .Open-map__hover {
+    display: flex;
+}
+.pen-map-text {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
