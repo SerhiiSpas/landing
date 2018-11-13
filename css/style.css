@@ -335,3 +335,35 @@ span.block__date-month {
         font-size: 32px;
     }
 }
+
+.who_we_are {
+    padding: 90px 0 110px;
+    text-align: center;
+}
+
+.who__pics-item {
+    position: relative;
+}
+
+.who__hover {
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.who__pics-item:hover .who__hover {
+    display: flex;
+}
+.who__hover-text {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
