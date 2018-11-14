@@ -428,7 +428,7 @@ span.block__date-month {
 
 .Open-map-text {
     color: #f38181;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -446,9 +446,50 @@ span.block__date-month {
     background-color: #f8f8f8;
 }
 .contact-logo-title {
-    margin: 74px 0px 0px;
     color: #cccccc;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 46px;
     font-weight: 700;
+    padding: 0 0 42px;
+
+}
+
+.contact-logo-blogs {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 0px 0px;
+}
+
+.contact-text {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contact-text-followers {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat - Bold";
+    padding: 49px 0 18px;
+    border-bottom: #e5e5e5 1px solid;
+}
+
+.contact-follow-us p {
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.contact-follow-us img {
+    margin: 0 5px;
 }
