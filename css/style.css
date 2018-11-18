@@ -444,6 +444,7 @@ span.block__date-month {
 }
 .contact {
     background-color: #f8f8f8;
+    margin-bottom: 70px;
 }
 .contact-logo-title {
     color: #cccccc;
@@ -492,4 +493,75 @@ span.block__date-month {
 
 .contact-follow-us img {
     margin: 0 5px;
+}
+
+.contact-form {
+    margin-top: 37px;
+}
+
+.input-group-field {
+    height: 39px;
+    color: #cccccc;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contact-form .button {
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blogs-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.blogs-text {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.blogs-text-date {
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.instagram-img {
+    margin-top: 40px;
+}
+
+.instagram-text {
+    color: #333333;
+    font-family: "Roboto - Light Italic";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.footer-text {
+    background-color: #f8f8f8;;
+    text-align: center;
+    height: 60px;
+    padding-top: 24px;
+    border-top: #e5e5e5 1px solid;
+}
+
+.footer-textcolor {
+    color: red;
 }
