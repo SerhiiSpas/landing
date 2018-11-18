@@ -404,6 +404,11 @@ span.block__date-month {
     text-transform: uppercase;
 }
 
+.some-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .Open-map {
     position: relative;
     text-align: center;
