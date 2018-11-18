@@ -639,3 +639,48 @@ span.block__date-month {
     background-color: #f38181;
     margin: 17px 0px 24px 140px;
 }
+.Joshua-Earle {
+    margin: 100px 0px 130px;
+}
+.carousel-inner img {
+    float: left;
+    height: 210px;
+    width: 210px;
+    margin-left: 110px;
+    margin-right: 31px;
+}
+
+.Joshu-text-all {
+    width: 767px;
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.Joshu-text-all:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-left: 350px;
+    margin-top: 34px;
+}
+
+.Joshu-text-sign {
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    left: -57px;
+    top: -38px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: silver;
+}
