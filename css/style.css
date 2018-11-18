@@ -278,6 +278,13 @@ header {
     z-index: 99;
 }
 
+.happy {
+    background-image: url("../images/happy-clients2.jpg");
+    height: 830px;
+    width: auto;
+    margin-bottom: 100px;
+}
+
 .blog__photo {
     position: relative;
     margin-bottom: 20px;
@@ -444,7 +451,7 @@ span.block__date-month {
 }
 .contact {
     background-color: #f8f8f8;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 .contact-logo-title {
     color: #cccccc;
@@ -553,9 +560,10 @@ span.block__date-month {
     line-height: 24px;
     margin-top: 20px;
 }
-
+.footer {
+    background-color: #f8f8f8;
+}
 .footer-text {
-    background-color: #f8f8f8;;
     text-align: center;
     height: 60px;
     padding-top: 24px;
@@ -564,4 +572,70 @@ span.block__date-month {
 
 .footer-textcolor {
     color: red;
+}
+
+.happy__title {
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 109px;
+    padding-bottom: 16px;
+}
+
+.happy__name {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.happy__name:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px auto 60px;
+}
+
+.happy-top img {
+    border-radius: 100%;
+    float: left;
+    margin: 0px 30px 120px 0px;
+}
+
+.happy-top-title {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.happy-top-position {
+    color: #333333;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.happy-top-text {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.happy-top-position:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 17px 0px 24px 140px;
 }
