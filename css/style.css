@@ -373,7 +373,7 @@ span.block__date-month {
 }
 
 .who_we_are {
-    padding: 90px 0 110px;
+    padding: 0px 0 110px;
     text-align: center;
 }
 
@@ -647,6 +647,7 @@ span.block__date-month {
 .Joshua-Earle {
     margin: 100px 0px 130px;
 }
+
 .carousel-inner img {
     float: left;
     height: 210px;
